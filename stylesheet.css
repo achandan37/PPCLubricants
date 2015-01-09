@@ -77,19 +77,20 @@ font-weight: bold;}
 	background-color: #fdcb00;
 }
 
-.paragraph{
-	padding-left: 15px;
-	padding-right: 15px;
-	font-size: 8pt;
-	color:white;
-}
-
 .bottom{
 	margin-left:10px; 
 	margin-right: 10px;
 	width: 950px;
 	height: 700px;
 	background-color: black;
+}
+.smalllogo{
+	width:55px;
+	height:15px;
+	border-radius: 4px;
+	margin-left: 40px;
+	padding-top: 10px; 
+	display: inline-block;
 }
 .textabout{
 	position: relative;
@@ -112,9 +113,93 @@ font-weight: bold;
 font-size: 10pt;
 }
 
-
+.paragraph{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 8pt;
+	color:white;
+}
 
 .bold{
 	font-weight: bold;
 }
 
+.bulkdel{
+	position: relative;
+	bottom: 3px;
+	left:10px;
+	color: yellow;
+	display: inline-block;
+	font-size: 10pt;
+
+}
+
+.smallbox{
+	width:209px;
+	height: 220px;
+	margin: 10px 9px 10px 9px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#two{
+	position: relative;
+	top: 20px;
+}
+
+#readtwo{
+	position: relative;
+	top: -3px;
+}
+#first{
+	position: relative;
+	left: 11px;
+	margin-right: 20px;
+}
+.smallboxhead{
+	width:209px;
+	height:30px;
+	display: inline-block;
+	background-color: #fdd11a;
+	font-size:10pt;
+	font-weight: bold;
+	position: relative;
+	bottom: 2px;
+}
+
+.headtext{
+	padding-left: 5px;
+	padding-top: 8px;
+}
+.automotive{
+	position: relative;
+	top: 5px;
+	width:209px;
+}
+
+
+.whitespace{
+	width:209px;
+	background-color: white;
+	height:128px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.whitespacepar{
+	font-size: 8pt;
+	padding: 10px;
+}
+
+.arrow{
+	position: relative;
+	left: 120px;
+	top:10px;
+}
+
+.readmore{
+	font-size: 8px;
+	position: relative;
+	bottom: 14px;
+	left:132px;
+}
