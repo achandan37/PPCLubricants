@@ -1,0 +1,50 @@
+10X10
+function array() {
+    x=[];
+    y=[];
+    for(var i=0;i<10;i++){
+        for(var j=0;j<10;j++){
+        if(Math.random()<0.51){y.push("D")}
+        else{y.push("E")}
+            
+        }
+        x.push(y);
+        y=[];
+    }
+    console.log(x);
+    }
+
+Array2Hash
+function array2has(array1,array2){
+    hash=[]
+    for(i=0;i<array1.length;i++){
+        hash.push(array1[i] + ":" + array2[i])
+    }
+console.log(hash)
+}
+
+35
+function thirtyfive(){
+    var sum=0;
+    for(var i=100;i<4000001;i++){
+        if(i%3===0 && i%5===0){}
+        else if(i%3===0 || i%5===0){sum=sum+i}
+    }
+    console.log(sum);
+}
+
+balance
+function balance(array){
+    var oneside=0
+    var secondside=0
+    for(var i=0;i<array.length;i++){
+        for(var j=0;j<i;j++){
+            oneside=oneside+array[j]
+        }
+        for(var k=array.length-1;k>j-1;k--){
+            secondside=secondside+array[k]
+        }
+        if(oneside==secondside){console.log(true)}
+        else{oneside=0;secondside=0}
+    }
+}
